@@ -77,14 +77,14 @@ nav a:hover{
   z-index: 1;
   /* Requirement 3a code here*/
   position: absolute;
-  top: auto;
-  transform: translateY(-100%);
+  top: -40px;
   
 }
 
 /* Requirement 3b code here*/
 .skip a:focus{
-  transform: translateY(0%);
+  position: absolute;
+  top: 0;
 }
 
 
